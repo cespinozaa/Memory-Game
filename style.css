@@ -1,0 +1,103 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 2em;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.5;
+  background-color: #B0C4DE;
+  color: black;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+/* adjust button size*/
+button {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:140px;
+  height:180px;
+  margin:4px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* add color to buttons */
+#button1 {
+    background: lightgreen;
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button3 {
+    background: pink;
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button5 {
+    background: navajowhite;
+}
+
+#button6 {
+    background: lavender;
+}
+
+/*change color of buttons when clicked */
+#button1:active, #button1.lit{
+    background:green;
+}
+
+#image.clicked{
+  display:none;
+}
+
+
+#button2:active, #button2.lit {
+    background:blue;
+}
+
+#button3:active, #button3.lit {
+    background:red;
+}
+
+#button4:active, #button4.lit {
+    background:yellow;
+}
+
+#button5:active, #button5.lit {
+    background:orange;
+}
+
+#button6:active, #button6.lit {
+    background:mediumorchid;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: 50%;
+  max-width: 100%;
+  border-radius: 50%;
+}
