@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the game! Repeat back the pattern by 
+      pressing the buttons to win.
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id= "stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+   
+    <div id="gameButtonArea">
+      <button id= "button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"> 
+         <img src="https://cdn.glitch.global/2cded860-949b-40d7-833f-5838891c3a02/jupiter.PNG?v=1647198545304" alt="jupiter" width="150" height="150">
+      </button>
+     
+      <button id= "button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img src= "https://cdn.glitch.global/2cded860-949b-40d7-833f-5838891c3a02/mars.PNG?v=1647198549915" alt= "mars" width= "150" height= "150">
+      </button>
+      
+      <button id= "button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img src= "https://cdn.glitch.global/2cded860-949b-40d7-833f-5838891c3a02/mercury.PNG?v=1647198553660" alt= "mercury" width= "150" height= "150">
+      </button>
+      
+      <button id= "button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img src= "https://cdn.glitch.global/2cded860-949b-40d7-833f-5838891c3a02/neptune.PNG?v=1647198556933" alt= "neptune" width="150" height= "150">
+      </button>
+      
+      <button id= "button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img src= "https://cdn.glitch.global/2cded860-949b-40d7-833f-5838891c3a02/saturn.PNG?v=1647198560204" alt= "saturn" width= "150" height= "150">
+      </button>
+      
+      <button id= "button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img src= "https://cdn.glitch.global/2cded860-949b-40d7-833f-5838891c3a02/venus.PNG?v=1647198567549" alt= "venus" >
+      </button>
+      
+    </div>
+  </body>
+</html>
