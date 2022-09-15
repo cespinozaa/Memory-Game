@@ -8,7 +8,7 @@ Link to project: https://puzzle-kind-crocus.glitch.me
 
 The following functionality is complete:
 
-* [] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons
 * [] "Start" button toggles between "Start" and "Stop" when clicked. 
 * [] Game buttons each light up and play a sound when clicked. 
 * [] Computer plays back sequence of clues including sound and visual cue for each button
@@ -18,13 +18,13 @@ The following functionality is complete:
 
 The following  features are implemented:
 
-* [] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [] More than 4 functional game buttons
+* [] HTML page elements
+* [] Buttons use a pitch (frequency) 
+* [] Functional game buttons
 * [] Playback speeds up on each turn
 * [] Computer picks a different pattern each time the game is played
 * [] Player only loses after 3 mistakes (instead of on the first mistake)
-* [] Game button appearance change goes beyond color (e.g. add an image)
+* [] Game button appearance change goes beyond color 
 
 
 ## Video Walkthrough (GIF)
